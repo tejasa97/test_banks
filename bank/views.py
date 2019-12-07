@@ -12,6 +12,12 @@ def handler404(request, exception=None):
     response.status_code = 404
     return JsonResponse(response)
 
+def hello(request):
+
+    return JsonResponse(
+        {"Hello" : "World!"}
+    )
+
 class BranchIFSC(generics.RetrieveAPIView):
 
     serializer_class = BranchSerializer
