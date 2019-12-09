@@ -10,6 +10,7 @@ Installation:<br>
 
 Then the `script.sh` file which contains the necessary CURL requests to demonstrate the various APIs can be executed.<br>
 Usage :<br>
+```chmod +x script.sh```
 ```./script.sh```
 
 API calls made:<br>
